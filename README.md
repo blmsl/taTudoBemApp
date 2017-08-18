@@ -1,26 +1,38 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Tá tudo bem?
 
-## How to use this template
+### Disponível apenas para dispositivos Android. 
+<a href='https://play.google.com/store/apps/details?id=com.ionicframework.tatudobemapp&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Disponível no Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/pt-br_badge_web_generic.png'/></a>
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+## Sobre a app
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+O "Tá tudo bem?" é um aplicativo que visa informar as pessoas sobre o suicídio e desmistificá-lo, eliminando qualquer tipo de tabu ou preconceito sobre o tema. 
 
-### With the Ionic CLI:
+O mais importante acima de tudo é buscar ajuda. 
+Procure um psicólogo ou alguém de confiança e converse. Você não está sozinho. 
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+Caso não se sinta confortável em desabafar sobre o assunto com alguém próximo, o CVV - Centro de Valorização da Vida oferece um atendimento sigiloso por telefone, Skype, chat e e-mail 24h por dia. 
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start mySideMenu sidemenu
-```
+Todas as informações contidas dentro deste aplicativo tiveram supervisão de um profissional formado em Psicologia.
 
-Then, to run it, cd into `mySideMenu` and run:
+### Features
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+Através do app é possível: 
 
-Substitute ios for android if not on a Mac.
+- Ligação emergencial: Ao clicar no botão "Preciso falar com alguém agora", automaticamente será feita uma ligação para o CVV - Centro de Valorização da Vida através do número 141 (e para isso o app solicita uma permissão para realizar ligações no device); 
+- Notificações: 3 vezes na semana você recebe uma notificação com uma mensagem de apoio emocional;
+- Mitos e verdades: informações sobre o que é verdadeiro ou falso a respeito do suicídio. 
 
+### Tecnologias utilizadas
+
+- IONIC 3; 
+- Angular 4; 
+- Firebase; 
+- Pushwoosh; 
+- Typescript; 
+- HTML5; 
+- SASS;
+
+### TO DO 
+
+- Como Ajudar; 
+- Agenda de contatos
