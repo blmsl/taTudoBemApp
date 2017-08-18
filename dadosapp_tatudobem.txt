@@ -1,7 +1,0 @@
-keytool -genkey -v -keystore C:\Users\Fulllab\Documents\taTudoBemApp\my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
-
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore C:\Users\Fulllab\Documents\taTudoBemApp\my-release-key.keystore C:\Users\Fulllab\Documents\taTudoBemApp\platforms\android\build\outputs\apk\android-release-unsigned.apk alias_name
-
-zipalign -v 4 C:\Users\Fulllab\Documents\taTudoBemApp\platforms\android\build\outputs\apk\android-release-unsigned.apk TaTudoBemApp.apk
-
-senha 1234trocar
