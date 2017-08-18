@@ -1,7 +1,7 @@
 # Tá tudo bem?
 
 ### Disponível apenas para dispositivos Android. 
-<a href='https://play.google.com/store/apps/details?id=com.ionicframework.tatudobemapp&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Disponível no Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/pt-br_badge_web_generic.png'/></a>
+<a href='https://play.google.com/store/apps/details?id=com.ionicframework.tatudobemapp&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Disponível no Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/pt-br_badge_web_generic.png'width="80" height="80"/></a>
 
 ## Sobre a app
 
@@ -14,7 +14,7 @@ Caso não se sinta confortável em desabafar sobre o assunto com alguém próxim
 
 Todas as informações contidas dentro deste aplicativo tiveram supervisão de um profissional formado em Psicologia.
 
-### Features
+## Features
 
 Através do app é possível: 
 
@@ -22,7 +22,7 @@ Através do app é possível:
 - Notificações: 3 vezes na semana você recebe uma notificação com uma mensagem de apoio emocional;
 - Mitos e verdades: informações sobre o que é verdadeiro ou falso a respeito do suicídio. 
 
-### Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - IONIC 3; 
 - Angular 4; 
