@@ -1,5 +1,7 @@
 # Tá tudo bem? 
-### v.0.0.2
+
+## Versão 
+0.0.2
 
 ## Baixe o app
 
