@@ -1,11 +1,7 @@
-# Tá tudo bem? 
-
-## Versão do app 
-
-v.0.0.2
+# Tá tudo bem? ### v.0.0.2
 
 ### Disponível apenas para dispositivos Android. 
-<a href='https://play.google.com/store/apps/details?id=com.ionicframework.tatudobemapp&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Disponível no Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/pt-br_badge_web_generic.png' width="80" height="80"/></a>
+<a href='https://play.google.com/store/apps/details?id=com.ionicframework.tatudobemapp&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Disponível no Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/pt-br_badge_web_generic.png' width="150" /></a>
 
 ## Sobre a app
 
