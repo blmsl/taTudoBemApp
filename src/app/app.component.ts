@@ -4,41 +4,53 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { WelcomePage } from "../pages/welcome/welcome";
+import { AboutPage } from "../pages/about/about";
+import { FaqPage } from "../pages/faq/faq";
+import { ConfigPage } from "../pages/config/config";
+import { PushService } from "../providers/push-service/push-service";
+
 
 @Component({
-  templateUrl: 'app.html'
+  templateUrl: 'app.html',
+  providers: [PushService]
 })
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = WelcomePage;
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{ title: string, component: any, icon: string }>;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, public pushService: PushService) {
     this.initializeApp();
 
-    // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'Home', component: HomePage, icon: 'home' },
+      { title: 'Mitos e verdades', component: FaqPage, icon: 'paper' },
+      { title: 'Configurações', component: ConfigPage, icon: 'settings' },
+      { title: 'Sobre o app', component: AboutPage, icon: 'heart' }
     ];
 
   }
 
   initializeApp() {
     this.platform.ready().then(() => {
-      // Okay, so the platform is ready and our plugins are available.
-      // Here you can do any higher level native things you might need.
       this.statusBar.styleDefault();
-      this.splashScreen.hide();
+      this.hideSplashScreen();
     });
   }
 
+  hideSplashScreen() {
+    if (this.splashScreen) {
+      setTimeout(() => {
+        this.splashScreen.hide();
+      }, 100);
+    }
+  }
+
   openPage(page) {
-    // Reset the content nav to have just this page
-    // we wouldn't want the back button to show in this scenario
     this.nav.setRoot(page.component);
   }
+
 }

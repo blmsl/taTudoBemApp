@@ -1,0 +1,50 @@
+.ios,
+.md {
+    page-welcome {
+        .scroll-content {
+            overflow-y: hidden;
+         }
+        .bg { 
+            width: 100%;
+            height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+        .logo {
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+            max-width: 180px;
+            position: absolute;
+            bottom: 230px;
+            left: 0;
+            right: 0;
+        }
+        button {
+            border: 0;
+            border-radius: 50px;
+            background-color: #cb7e11;
+            bottom: 100px;
+            margin: 0 auto;
+            width: 80%;
+            height: 50px;
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            box-shadow: none;
+            &.activated {
+                background-color: transparent;
+            }
+            span {
+                color: #ffffff;
+                text-transform: none;
+                font-size: 20px;
+                vertical-align: middle;
+            }
+            ion-icon {
+                padding-right: 10px;
+            }
+        }
+    }
+}

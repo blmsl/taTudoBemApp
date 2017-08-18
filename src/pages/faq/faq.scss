@@ -1,0 +1,30 @@
+.ios,
+.md {
+    page-faq {
+        h3 {
+            font-weight: 500;
+            margin: 10px 0;
+            padding-top: 10px;
+            ion-icon {
+                color: #ffc309;
+                float: left;
+                margin-top: 0;
+                font-size: 36px;
+                margin: 0 16px 0 0;
+            }
+        }
+        .description {
+            margin-left: 45px;
+            font-size: 14px;
+        }
+        .disclaimer {
+            background: #f8f8f8;
+            position: absolute;
+            left: 0;
+            p {
+                font-size: 13px;
+                padding: 5px 25px;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+       <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Mitos e verdades</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+<ion-list>
+  <ion-item *ngFor="let suicideFact of suicideFacts | async ; let i=index" text-wrap (click)="toggleGroup(i)" [ngClass]="{active: isGroupShown(i)}" no-padding>
+    <h3 class="title">
+      <ion-icon [name]="isGroupShown(i) ? 'remove-circle' : 'add-circle'"></ion-icon>
+      {{suicideFact.title}}
+    </h3>
+    <div *ngIf="isGroupShown(i)" class="animated fadeIn description">
+      {{suicideFact.description}}
+    </div>
+  </ion-item>
+</ion-list>
+
+<div class="disclaimer">  
+  <p text-center>Fonte/Créditos: ABEPS - Associação Brasileira de Estudos e Prevenção do Suicídio</p>
+</div>
+</ion-content>

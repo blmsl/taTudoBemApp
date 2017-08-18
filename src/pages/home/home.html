@@ -1,18 +1,22 @@
 <ion-header>
   <ion-navbar>
     <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
+       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>Home</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content no-padding>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+  <img src="assets/img/bg_home.png" alt="">
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+  <button class="animated infinite pulse btn__emergency" (click)="launchDialer('141')">
+      <img src="assets/img/emergency_call_button.png" alt="">
+    </button>
+
+   <div class="disclaimer">
+      <button class="btn__more" ion-button full (click)="helpMeAbout()">Saiba mais</button>
+  </div>
+
 </ion-content>
